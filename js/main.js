@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
     "use strict";
 
     // Sticky Navbar
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 40) {
             $('.navbar').addClass('sticky-top scrolled');
         } else {
@@ -11,12 +11,12 @@
     });
 
     // Dropdown on mouse hover
-    $(document).ready(function() {
+    $(document).ready(function () {
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
-                $('.navbar .dropdown').on('mouseover', function() {
+                $('.navbar .dropdown').on('mouseover', function () {
                     $('.dropdown-toggle', this).trigger('click');
-                }).on('mouseout', function() {
+                }).on('mouseout', function () {
                     $('.dropdown-toggle', this).trigger('click').blur();
                 });
             } else {
@@ -25,31 +25,46 @@
         }
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
+
+        // Highlight active link based on scroll position
+        function updateActiveLink() {
+            let scrollPos = $(document).scrollTop() + 100; // Adjusted offset for navbar height
+            $('.navbar-nav .nav-link').each(function () {
+                let currLink = $(this);
+                let refElement = $(currLink.attr("href"));
+
+                if (refElement.length && refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('.navbar-nav .nav-link').removeClass("active");
+                    currLink.addClass("active");
+                } else {
+                    currLink.removeClass("active");
+                }
+            });
+        }
+
+        $(window).on("scroll", updateActiveLink);
     });
 
-
     // Back to top button
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
         }
     });
-    $('.back-to-top').click(function() {
+    $('.back-to-top').click(function () {
         $('html, body').animate({
             scrollTop: 0
         }, 1500, 'easeInOutExpo');
         return false;
     });
 
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-
 
     // Product carousel
     $(".product-carousel").owlCarousel({
@@ -78,7 +93,6 @@
             }
         }
     });
-
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({

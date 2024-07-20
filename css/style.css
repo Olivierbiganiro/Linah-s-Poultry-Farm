@@ -326,7 +326,6 @@ body {
 
 
 .card{
-    background-color: #fff !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
     transition: transform 0.3s ease !important;
     border: none !important;
@@ -338,4 +337,33 @@ body {
 }
 
 
-  
+.card1{
+    box-shadow: transparent !important;
+    transition: transform 0.3s ease !important;
+    border: none !important;
+}
+
+.card1:hover {
+    transform: scale(1.05) !important;
+    cursor:pointer !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: green !important;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: green !important;
+}
+
+input.active {
+    text-decoration: none !important;
+}
+
+textarea.active {
+    text-decoration: none !important;
+}
