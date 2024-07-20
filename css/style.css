@@ -4,7 +4,14 @@
     --primary: #34AD54;
     --secondary: #FF9933;
     --light: #F6FFF2;
-    --dark: #263A4F;
+    --dark: #000000;
+}
+
+body {
+    font-family: 'Roboto Slab', serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 .btn {
@@ -51,11 +58,12 @@
     z-index: 99;
 }
 
+
 .navbar-dark .navbar-nav .nav-link {
     padding: 30px 15px;
     font-size: 16px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #000;
     text-transform: uppercase;
     transition: .5s;
 }
@@ -66,7 +74,15 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: var(--secondary);
+    background: #34AD54;
+}
+.navbar.scrolled {
+    background-color: #FF9933; 
+    
+}
+
+.navbar.scrolled .nav-link {
+    color: #fff; 
 }
 
 @media (max-width: 991.98px) {
@@ -111,12 +127,13 @@
 }
 
 .bg-vegetable {
-    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), url(../img/vegetable.png) bottom right no-repeat;
+    background: linear-gradient(rgba(52, 173, 84, .1), rgba(52, 173, 84, .1)), url(../img/fruit.png) bottom right no-repeat;
     background-size: contain;
+
 }
 
 .bg-fruit {
-    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(../img/fruit.png) bottom right no-repeat;
+    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(../img/vegetable.png) bottom right no-repeat;
     background-size: contain;
 }
 
@@ -292,3 +309,33 @@
         margin-top: 90px !important;
     }
 }
+
+
+
+.carousel-item img {
+    object-fit: cover; /* Ensures the image covers the entire container */
+    height: 50vh; /* Set a specific height to reduce the image size */
+    width: 100%; /* Ensure the image spans the full width */
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 80vh; /* Adjust the height for smaller screens */
+    }
+}
+
+
+.card{
+    background-color: #fff !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease !important;
+    border: none !important;
+}
+
+.card:hover {
+    transform: scale(1.05) !important;
+    cursor:pointer !important;
+}
+
+
+  

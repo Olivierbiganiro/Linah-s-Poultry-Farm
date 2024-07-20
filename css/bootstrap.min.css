@@ -6210,6 +6210,7 @@ fieldset:disabled .btn {
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
     transform: translateX(100%)
+    
 }
 
 .carousel-item-prev:not(.carousel-item-end),
