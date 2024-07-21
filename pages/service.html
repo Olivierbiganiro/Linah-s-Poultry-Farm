@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Linah’s Poultry Farm</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -8,378 +9,263 @@
     <meta content="Free HTML Templates" name="description" />
 
     <!-- Favicon -->
-    <link href="../img/logo.jpg" rel="icon" />
+    <link href="img/logo.jpg" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
-    <link
-      href="../lib/owlcarousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Template Stylesheet -->
     <link href="../css/style.css" rel="stylesheet" />
-  </head>
 
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        .navbar-dark-bg {
+            background-color: transparent;
+        }
+
+        .custom-size {
+            width: 100%;
+            /* Default width of the div */
+            height: 200px;
+            /* Default height of the div */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            /* Hide overflow to keep the container's size consistent */
+        }
+
+        .custom-size img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ensure the image covers the container while maintaining its aspect ratio */
+        }
+
+        @media (min-width: 375px) {
+
+            /* Small screens */
+            .custom-size {
+                height: 250px;
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            /* Medium screens */
+            .custom-size {
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            /* Large screens */
+            .custom-size {
+                height: 350px;
+            }
+
+        }
+
+        @media (min-width: 1200px) {
+
+            /* Extra large screens */
+            .custom-size {
+                height: 400px;
+            }
+        }
+
+        .navbar {
+            background-color: #34AD54;
+            /* Light color or any default color you prefer */
+        }
+
+        /* Small screens and above */
+        @media (min-width: 576px) {
+            .navbar {
+                background-color: #34AD54;
+                /* Bootstrap primary color */
+            }
+        }
+
+        /* Medium screens and above */
+        @media (min-width: 768px) {
+            .navbar {
+                background-color: #34AD54;
+                /* Bootstrap success color */
+            }
+        }
+
+        /* Large screens and above */
+        @media (min-width: 992px) {
+            .navbar {
+                background-color: transparent;
+                /* Bootstrap danger color */
+            }
+        }
+    </style>
+</head>
+
+<body>
     <!-- Topbar Start -->
-    <div class="container-fluid px-5 d-none d-lg-block">
-      <div class="row gx-5 py-3 align-items-center">
-        <div class="col-lg-3">
-          <div class="d-flex align-items-center justify-content-start">
-            <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-            <h2 class="mb-0">+250789182350</h2>
-          </div>
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="row gx-5 py-3 align-items-center">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-start">
+                    <i class="bi bi-phone-vibrate text-primary me-2 fs-4"></i>
+                    <h2 class="mb-0 fs-5">+250789182350</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="navbar-brand ms-lg-5">
+                        <h2 class="m-0 fs-4 text-white">
+                            <span class="text-secondary px-2">Linah’s Poultry</span>Farm
+                        </h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex align-items-center justify-content-end">
+                <a class="btn btn-primary btn-square rounded-circle me-1" href="https://wa.me/250789182350?text=What%20about%20your%20service" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="btn btn-primary btn-square rounded-circle me-1" href="tel:+250789182350">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <a class="btn btn-primary btn-square rounded-circle me-1" href="https://www.instagram.com/li__nah/?hl">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            
+            </div>
         </div>
-        <div class="col-lg-6">
-          <div class="d-flex align-items-center justify-content-center">
-            <a href="../index.html" class="navbar-brand ms-lg-5">
-              <h1 class="m-0 display-4 text-primary">
-                <span class="text-secondary">Linah’s Poultry</span>Farm
-              </h1>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="d-flex align-items-center justify-content-end">
-            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="btn btn-primary btn-square rounded-circle" href="#"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5"
-    >
-      <a href="../index.html" class="navbar-brand d-flex d-lg-none">
-        <h1 class="m-0 display-4 text-secondary">
-          <span class="text-white">Farm</span>Fresh
-        </h1>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav mx-auto py-0">
-          <a href="../index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="service.html" class="nav-item nav-link active">Service</a>
-          <a href="product.html" class="nav-item nav-link">Product</a>
-          <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Pages</a
-            >
-            <div class="dropdown-menu m-0">
-              <a href="feature.html" class="dropdown-item">Features</a>
-
-              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+        <a href="../index.html" class="navbar-brand d-flex d-lg-none">
+            <h1 class="m-0 display-4 text-secondary fs-5">
+                <span class="text-white pr-3">Linah’s Poultry</span>Farm
+            </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="../index.html#index" class="nav-item nav-link ">Home</a>
+                <a href="../index.html#service" class="nav-item nav-link active">Service</a>
+                <a href="../index.html#about" class="nav-item nav-link">About</a>
+                <a href="../index.html#Testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="../index.html#product" class="nav-item nav-link">Product</a>
+                <a href="../index.html#contact" class="nav-item nav-link">Contact</a>
             </div>
-          </div>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
-      </div>
     </nav>
     <!-- Navbar End -->
 
-    <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 bg-hero mb-5">
-      <div class="container py-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h1 class="display-1 text-white mb-md-4">Our Services</h1>
-          </div>
+    <!--main-->
+    <main class="px-2 px-sm-1 px-md-3 px-lg-5">
+      <!-- Services Start -->
+      <div class="container-fluid py-5" >
+        <div class="container">
+            <div class="row px-1 px-sm-1 px-md-4 px-lg-5" >
+                <div class="col-lg-4 col-md-6">
+                    <div class="mb-3">
+                        <h4 class="fs-4">Poultry Farm Services</h4>
+                    </div>
+                    <p class="mb-4">
+                        At Linah’s Poultry Farm, we offer a variety of services to ensure the highest quality poultry products for our customers. Our services are rooted in sustainable and ethical farming practices.
+                    </p>
+                    <a href="../index.html#contact" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-2 p-sm-1 p-md-3 p-lg-5">
+                        <i class="fa fa-drumstick-bite display-1 text-primary mb-3"></i>
+                        <h4>Premium Chicken Meat</h4>
+                        <p class="mb-0">
+                            Enjoy our fresh, locally sourced chicken meat. We offer a variety of cuts, including whole chickens, breasts, thighs, wings, and drumsticks.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" >
+                    <div class="service-item bg-light text-center p-2 p-sm-1 p-md-3 p-lg-5">
+                        <i class="fa fa-egg display-1 text-primary mb-3"></i>
+                        <h4>Farm-Fresh Eggs</h4>
+                        <p class="mb-0">
+                            Our eggs are laid by healthy, happy hens. Choose from organic, free-range, and other options to suit your needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-2 p-sm-1 p-md-3 p-lg-5">
+                        <i class="fa fa-leaf display-1 text-primary mb-3"></i>
+                        <h4>Sustainable Farming Practices</h4>
+                        <p class="mb-0">
+                            We are committed to sustainable and ethical farming practices that ensure the health and well-being of our poultry and the environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-2 p-sm-1 p-md-3 p-lg-5">
+                        <i class="fa fa-check-circle display-1 text-secondary mb-3"></i>
+                        <h4>Quality Assurance</h4>
+                        <p class="mb-0">
+                            We ensure the highest standards of quality in every product, from farm to table. Our rigorous quality assurance processes guarantee the best poultry products.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light text-center p-2 p-sm-1 p-md-3 p-lg-5">
+                        <i class="fa fa-headset display-1 text-primary mb-3"></i>
+                        <h4>Customer Support</h4>
+                        <p class="mb-0">
+                            Our team is dedicated to providing excellent customer support. Contact us with any questions or to place an order.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-    </div>
-    <!-- Hero End -->
+      <!-- Services End -->
 
-    <!-- Services Start -->
-    <div class="container-fluid py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-4 col-md-6">
-            <div class="mb-3">
-              <h6 class="text-primary text-uppercase">Services</h6>
-              <h1 class="display-5">Organic Farm Services</h1>
-            </div>
-            <p class="mb-4">
-              Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et
-              tempor sit. Clita erat ipsum et lorem et sit sed stet labore
-            </p>
-            <a href="" class="btn btn-primary py-md-3 px-md-5">Contact Us</a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item bg-light text-center p-5">
-              <i class="fa fa-carrot display-1 text-primary mb-3"></i>
-              <h4>Fresh Vegetables</h4>
-              <p class="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita nonumy
-                dolor magna dolor vero
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item bg-light text-center p-5">
-              <i class="fa fa-apple-alt display-1 text-primary mb-3"></i>
-              <h4>Fresh Fruits</h4>
-              <p class="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita nonumy
-                dolor magna dolor vero
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item bg-light text-center p-5">
-              <i class="fa fa-dog display-1 text-primary mb-3"></i>
-              <h4>Healty Cattle</h4>
-              <p class="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita nonumy
-                dolor magna dolor vero
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item bg-light text-center p-5">
-              <i class="fa fa-tractor display-1 text-primary mb-3"></i>
-              <h4>Modern Truck</h4>
-              <p class="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita nonumy
-                dolor magna dolor vero
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item bg-light text-center p-5">
-              <i class="fa fa-seedling display-1 text-primary mb-3"></i>
-              <h4>Farming Plans</h4>
-              <p class="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita nonumy
-                dolor magna dolor vero
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Services End -->
 
-    <!-- Testimonial Start -->
-    <div
-      class="container-fluid bg-testimonial py-5 mt-5"
-      style="margin-bottom: 135px"
-    >
-      <div class="container py-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="owl-carousel testimonial-carousel p-5">
-              <div class="testimonial-item text-center text-white">
-                <img
-                  class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
-                  src="../img/testimonial-2.jpg"
-                  alt=""
-                />
-                <p class="fs-5">
-                  Dolores sed duo clita justo dolor et stet lorem kasd dolore
-                  lorem ipsum. At lorem lorem magna ut et, nonumy labore diam
-                  erat. Erat dolor rebum sit ipsum.
-                </p>
-                <hr class="mx-auto w-25" />
-                <h4 class="text-white mb-0">Client Name</h4>
-              </div>
-              <div class="testimonial-item text-center text-white">
-                <img
-                  class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
-                  src="../img/testimonial-2.jpg"
-                  alt=""
-                />
-                <p class="fs-5">
-                  Dolores sed duo clita justo dolor et stet lorem kasd dolore
-                  lorem ipsum. At lorem lorem magna ut et, nonumy labore diam
-                  erat. Erat dolor rebum sit ipsum.
-                </p>
-                <hr class="mx-auto w-25" />
-                <h4 class="text-white mb-0">Client Name</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Testimonial End -->
+    </main>
+    <!--end main-->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-footer bg-primary text-white mt-5">
-      <div class="container">
-        <div class="row gx-5">
-          <div class="col-lg-8 col-md-6">
-            <div class="row gx-5">
-              <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                <h4 class="text-white mb-4">Get In Touch</h4>
-
-                <div class="d-flex mb-2">
-                  <i class="bi bi-envelope-open text-white me-2"></i>
-                  <p class="text-white mb-0">info@example.com</p>
-                </div>
-                <div class="d-flex mb-2">
-                  <i class="bi bi-telephone text-white me-2"></i>
-                  <p class="text-white mb-0">+2507891823500</p>
-                </div>
-                <div class="d-flex mt-4">
-                  <a
-                    class="btn btn-secondary btn-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="btn btn-secondary btn-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-secondary btn-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                  <a
-                    class="btn btn-secondary btn-square rounded-circle"
-                    href="#"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                <h4 class="text-white mb-4">Quick Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>About
-                    Us</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
-                    Services</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
-                    Team</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
-                    Blog</a
-                  >
-                  <a class="text-white" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
-                    Us</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                <h4 class="text-white mb-4">Popular Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>About
-                    Us</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
-                    Services</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
-                    Team</a
-                  >
-                  <a class="text-white mb-2" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
-                    Blog</a
-                  >
-                  <a class="text-white" href="#"
-                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
-                    Us</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-white mb-4">Location</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Bugesera</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Nyamata</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Kayumba
-</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Murambi
-</a>
-                             
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
-                            </div>
-                        </div>
+    <footer>
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-primary text-white">
+            &copy;
+            <a class="text-secondary fw-bold" href="#">Linah’s Poultry Farm 2024</a>. All Rights Reserved.
+            </p>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-dark text-white py-4">
-      <div class="container text-center">
-        <p class="mb-0">
-          &copy;
-          <a class="text-secondary fw-bold" href="#">Linah’s Poultry Farm</a>.
-          All Rights Reserved.
-          <a class="text-secondary fw-bold" href="https://htmlcodex.com"
-            >HTML Codex</a
-          >
-        </p>
-       
-      </div>
-    </div>
+
+    </footer>
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- Bootstrap JS (Ensure these are included at the bottom of the body) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -391,5 +277,6 @@
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
-  </body>
+</body>
+
 </html>

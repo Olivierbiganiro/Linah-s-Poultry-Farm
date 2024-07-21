@@ -144,7 +144,7 @@ body {
 
 .about i,
 .service-item i {
-    background-image: linear-gradient(var(--primary), var(--secondary));
+    background-image: linear-gradient(#FF9933, #34AD54);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .5s;
@@ -152,11 +152,14 @@ body {
 
 .service-item:hover {
     color: var(--light);
-    background: var(--primary) !important;
+    background: #34AD54  !important;
+    cursor: pointer;
+    transform: scale(1.05);
+    
 }
 
 .service-item:hover i {
-    background-image: linear-gradient(var(--light), var(--secondary));
+    background-image: linear-gradient(#FF9933, #34AD54);
 }
 
 .service-item:hover h4 {
@@ -200,9 +203,9 @@ body {
     height: 55%;
     bottom: 0;
     left: 0;
-    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
+    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product.png) right bottom no-repeat;
     background-size: contain;
-    background-color: var(--primary);
+    background-color: #34AD54;
     z-index: -1;
 }
 
