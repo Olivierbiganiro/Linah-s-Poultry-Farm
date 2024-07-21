@@ -171,6 +171,7 @@ body {
 }
 
 .product-item {
+    transition: transform 0.3s ease !important;
     padding: 0 30px 30px 30px;
 }
 
@@ -183,9 +184,9 @@ body {
     transition: .5s;
 }
 
-.product-item:hover .btn-action {
-    bottom: 0;
-    opacity: 1;
+.product-item:hover{
+    transform: scale(1.05) !important;
+    cursor:pointer !important;
 }
 
 .product-item h5 {
@@ -193,7 +194,7 @@ body {
 }
 
 .product-item:hover h5 {
-    opacity: 0;
+    color: #34AD54;
 }
 
 .product-carousel::after {
