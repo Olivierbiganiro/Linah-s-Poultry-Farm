@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Linah’s Poultry Farm</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -12,21 +13,13 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -37,624 +30,632 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet" />
     <style>
-        .navbar-dark-bg{
+        .navbar-dark-bg {
             background-color: transparent;
         }
+
         .custom-size {
-            width: 100%; /* Default width of the div */
-            height: 200px; /* Default height of the div */
+            width: 100%;
+            /* Default width of the div */
+            height: 200px;
+            /* Default height of the div */
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden; /* Hide overflow to keep the container's size consistent */
+            overflow: hidden;
+            /* Hide overflow to keep the container's size consistent */
         }
+
         .custom-size img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+            object-fit: cover;
+            /* Ensure the image covers the container while maintaining its aspect ratio */
         }
-        @media (min-width: 375px) { /* Small screens */
+
+        @media (min-width: 375px) {
+
+            /* Small screens */
             .custom-size {
                 height: 250px;
             }
         }
-        @media (min-width: 768px) { /* Medium screens */
+
+        @media (min-width: 768px) {
+
+            /* Medium screens */
             .custom-size {
                 height: 300px;
             }
         }
-        @media (min-width: 992px) { /* Large screens */
+
+        @media (min-width: 992px) {
+
+            /* Large screens */
             .custom-size {
                 height: 350px;
             }
 
         }
-        @media (min-width: 1200px) { /* Extra large screens */
+
+        @media (min-width: 1200px) {
+
+            /* Extra large screens */
             .custom-size {
                 height: 400px;
             }
         }
 
         .navbar {
-            background-color: #34AD54; /* Light color or any default color you prefer */
+            background-color: #34AD54;
+            /* Light color or any default color you prefer */
         }
+
         /* Small screens and above */
         @media (min-width: 576px) {
             .navbar {
-                background-color: #34AD54; /* Bootstrap primary color */
+                background-color: #34AD54;
+                /* Bootstrap primary color */
             }
         }
+
         /* Medium screens and above */
         @media (min-width: 768px) {
             .navbar {
-                background-color: #34AD54; /* Bootstrap success color */
+                background-color: #34AD54;
+                /* Bootstrap success color */
             }
         }
+
         /* Large screens and above */
         @media (min-width: 992px) {
             .navbar {
-                background-color: transparent; /* Bootstrap danger color */
+                background-color: transparent;
+                /* Bootstrap danger color */
             }
         }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Topbar Start -->
     <div class="container-fluid bg-primary px-5 d-none d-lg-block">
-      <div class="row gx-5 py-3 align-items-center">
-        <div class="col-lg-3">
-          <div class="d-flex align-items-center justify-content-start">
-            <i class="bi bi-phone-vibrate text-primary me-2 fs-4"></i>
-            <h2 class="mb-0 fs-5">+250789182350</h2>
-          </div>
+        <div class="row gx-5 py-3 align-items-center">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-start">
+                    <i class="bi bi-phone-vibrate text-primary me-2 fs-4"></i>
+                    <h2 class="mb-0 fs-5">+250789182350</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="navbar-brand ms-lg-5">
+                        <h2 class="m-0 fs-4 text-white">
+                            <span class="text-secondary px-2">Linah’s Poultry</span>Farm
+                        </h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a class="btn btn-primary btn-square rounded-circle me-1"
+                        href="https://wa.me/250789182350?text=What%20about%20your%20service" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a class="btn btn-primary btn-square rounded-circle" href="https://www.instagram.com/li__nah/?hl"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6">
-          <div class="d-flex align-items-center justify-content-center">
-            <a href="index.html" class="navbar-brand ms-lg-5">
-              <h2 class="m-0 fs-4 text-white">
-                <span class="text-secondary px-2">Linah’s Poultry</span>Farm
-              </h2>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="d-flex align-items-center justify-content-end">
-            <a
-              class="btn btn-primary btn-square rounded-circle me-1"
-              href="https://wa.me/250789182350?text=What%20about%20your%20service"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-whatsapp"></i>
-            </a>
-            <a
-              class="btn btn-primary btn-square rounded-circle"
-              href="https://www.instagram.com/li__nah/?hl"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5"
-    >
-      <a href="index.html" class="navbar-brand d-flex d-lg-none">
-        <h1 class="m-0 display-4 text-secondary fs-5">
-          <span class="text-white pr-3">Linah’s Poultry</span>Farm
-        </h1>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav mx-auto py-0">
-          <a href="#index" class="nav-item nav-link active">Home</a>
-          <a href="#about" class="nav-item nav-link">About</a>
-          <a href="#service" class="nav-item nav-link">Service</a>
-          <a href="#product" class="nav-item nav-link">Product</a>
-          <a href="#Testimonial" class="nav-item nav-link">Testimonial</a>
-          <a href="#contact" class="nav-item nav-link">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex d-lg-none">
+            <h1 class="m-0 display-4 text-secondary fs-5">
+                <span class="text-white pr-3">Linah’s Poultry</span>Farm
+            </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="#index" class="nav-item nav-link active">Home</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#Testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#product" class="nav-item nav-link">Product</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
         </div>
-      </div>
     </nav>
     <!-- Navbar End -->
 
-<!--main-->
-<main class="px-2 px-sm-1 px-md-3 px-lg-5" >
+    <!--main-->
+    <main class="px-2 px-sm-1 px-md-3 px-lg-5">
         <!-- Carousel Start -->
         <div class="p-0" id="index">
-            <div
-              id="header-carousel"
-              class="carousel slide carousel-fade"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                  <div class="carousel-item card active row px-1 px-sm-1 px-md-2 px-lg-3"  >
-                      <div class="container px-1 px-sm-1 px-md-2 px-lg-3" >
-                          <div class="row px-1 px-sm-1 px-md-2 px-lg-3" >
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5" >
-                                  <div class="d-flex flex-column align-items-center justify-content-center">
-                                      <div class="text-center py-5">
-                                          <h3 class="text-black">Linah’s Poultry Farm</h3>
-                                          <div class="row py-4">
-                                              <div class="col-12 text-dark">
-                                                  Welcome, your trusted source for premium poultry products in Rwanda. Nestled in the heart of Rwanda, we have been passionately providing the finest chicken meat and eggs since 2018. Our farm is dedicated to sustainable practices that ensure both the health of our chickens and the satisfaction of our customers.
-                                              </div>
-                                          </div>
-                                        <a href="#service" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
-                                        <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
-                                      </div>
-                                  </div>
-                              </div>
-                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
-                                  
-                                <div class="container">
-                                    <div class="custom-size">
-                                        <img src="img/home-img-1.png" alt="Image" class="img-fluid" />
-                                    </div>
-                                </div>
-                            
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="carousel-item card  row px-1 px-sm-1 px-md-2 px-lg-3"  >
-                    <div class="container px-1 px-sm-1 px-md-2 px-lg-3" >
-                        <div class="row px-1 px-sm-1 px-md-2 px-lg-3" >
-                          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5" >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <div class="text-center py-5">
-                                        <h3 class="text-black">Quality of our product</h3>
-                                        <div class="row py-4">
-                                            <div class="col-12 text-dark">
-                                                At Linah’s Poultry Farm, we take pride in the quality of our
-                                                chicken meat. Each bird is raised with care and processed
-                                                locally, ensuring that you receive fresh, delicious, and
-                                                nutrient-rich products every time. Our chickens are nurtured
-                                                in a healthy and ethical environment, which reflects in the
-                                                superior taste and quality of our meat.
+            <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item card active row px-1 px-sm-1 px-md-2 px-lg-3">
+                        <div class="container px-1 px-sm-1 px-md-2 px-lg-3">
+                            <div class="row px-1 px-sm-1 px-md-2 px-lg-3">
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <div class="text-center py-5">
+                                            <h3 class="text-black">Linah’s Poultry Farm</h3>
+                                            <div class="row py-4">
+                                                <div class="col-12 text-dark">
+                                                    Welcome, your trusted source for premium poultry products in Rwanda.
+                                                    Nestled in the heart of Rwanda, we have been passionately providing
+                                                    the finest chicken meat and eggs since 2018. Our farm is dedicated
+                                                    to sustainable practices that ensure both the health of our chickens
+                                                    and the satisfaction of our customers.
+                                                </div>
                                             </div>
+                                            <a href="#service" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
+                                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
                                         </div>
-                                        <a href="#service" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
-                                        <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
                                     </div>
                                 </div>
-                            </div>
-                           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
-                                
-                              <div class="container">
-                                  <div class="custom-size">
-                                      <img src="img/home-img-2.png" alt="Image" class="img-fluid" />
-                                  </div>
-                              </div>
-                          
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+
+                                    <div class="container">
+                                        <div class="custom-size">
+                                            <img src="img/home-img-1.png" alt="Image" class="img-fluid" />
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                  </div>
 
-                  
-                  <div class="carousel-item card  row px-1 px-sm-1 px-md-2 px-lg-3"  >
-                    <div class="container px-1 px-sm-1 px-md-2 px-lg-3" >
-                        <div class="row px-1 px-sm-1 px-md-2 px-lg-3" >
-                          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5" >
-                                <div class="d-flex flex-column align-items-center justify-content-center">
-                                    <div class="text-center py-5">
-                                        <h3 class="text-black">Our farm-fresh eggs</h3>
-                                        <div class="row py-4">
-                                            <div class="col-12 text-dark">
-                                                Our farm-fresh eggs are another highlight of our offerings.
-                                                Laid by happy and healthy hens, our eggs are packed with
-                                                flavor and essential nutrients, making them perfect for any
-                                                meal. We offer a variety of egg options, including organic
-                                                and free-range, catering to different preferences and
-                                                dietary needs.
+                    <div class="carousel-item card  row px-1 px-sm-1 px-md-2 px-lg-3">
+                        <div class="container px-1 px-sm-1 px-md-2 px-lg-3">
+                            <div class="row px-1 px-sm-1 px-md-2 px-lg-3">
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <div class="text-center py-5">
+                                            <h3 class="text-black">Quality of our product</h3>
+                                            <div class="row py-4">
+                                                <div class="col-12 text-dark">
+                                                    At Linah’s Poultry Farm, we take pride in the quality of our
+                                                    chicken meat. Each bird is raised with care and processed
+                                                    locally, ensuring that you receive fresh, delicious, and
+                                                    nutrient-rich products every time. Our chickens are nurtured
+                                                    in a healthy and ethical environment, which reflects in the
+                                                    superior taste and quality of our meat.
+                                                </div>
                                             </div>
+                                            <a href="#service"
+                                                class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
+                                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
                                         </div>
-                                        <a href="#service" class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
-                                        <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
                                     </div>
                                 </div>
-                            </div>
-                           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
-                                
-                              <div class="container">
-                                  <div class="custom-size">
-                                      <img src="img/home-img-3.png" alt="Image" class="img-fluid" />
-                                  </div>
-                              </div>
-                          
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+
+                                    <div class="container">
+                                        <div class="custom-size">
+                                            <img src="img/home-img-2.png" alt="Image" class="img-fluid" />
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                  </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#header-carousel"
-                data-bs-slide="prev"
-              >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#header-carousel"
-                data-bs-slide="next"
-              >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+
+
+                    <div class="carousel-item card  row px-1 px-sm-1 px-md-2 px-lg-3">
+                        <div class="container px-1 px-sm-1 px-md-2 px-lg-3">
+                            <div class="row px-1 px-sm-1 px-md-2 px-lg-3">
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                        <div class="text-center py-5">
+                                            <h3 class="text-black">Our farm-fresh eggs</h3>
+                                            <div class="row py-4">
+                                                <div class="col-12 text-dark">
+                                                    Our farm-fresh eggs are another highlight of our offerings.
+                                                    Laid by happy and healthy hens, our eggs are packed with
+                                                    flavor and essential nutrients, making them perfect for any
+                                                    meal. We offer a variety of egg options, including organic
+                                                    and free-range, catering to different preferences and
+                                                    dietary needs.
+                                                </div>
+                                            </div>
+                                            <a href="#service"
+                                                class="btn btn-primary py-md-3 px-md-5 me-3">Explore</a>
+                                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contact</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center p-2 p-sm-3 p-md-4 p-lg-5">
+
+                                    <div class="container">
+                                        <div class="custom-size">
+                                            <img src="img/home-img-3.png" alt="Image" class="img-fluid" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-          </div>
-          <!-- Carousel End -->
-          <hr />
-          <!-- Service Start -->
-          <section id="service">
-              <div class="container-fluid">
-                  <div class="container">
-                    <div class="container my-5">
-                      <div class="text-center py-2">
+        </div>
+        <!-- Carousel End -->
+        <hr />
+        <!-- Service Start -->
+        <section id="service">
+            <div class="container p-0 p-sm-1 p-md-2 p-lg-3">
+                <div class="container py-2 py-sm-2 py-md-4 py-lg-5">
+                    <div class="text-center ">
                         <h2 class="display-5">OUR SERVICES</h2>
-                      </div>
                     </div>
-                    <div class="row gx-0 px-5">
-                      <div class="card col-md-6">
-                        <div
-                          class="bg-primary bg-vegetable d-flex flex-column justify-content-center p-5"
-                          style="height: 300px"
-                        >
-                          <h3 class="text-white mb-3">Fresh Products</h3>
-                          <p class="text-white">
-                            At Linah’s Poultry Farm, we are dedicated to delivering the
-                            freshest and most nutritious poultry products straight from our
-                            farm to your table. Our range of premium chicken meats is
-                            locally sourced, ensuring the best taste and quality in every
-                            bite. Experience the delight of meals crafted with care and
-                            expertise.
-                          </p>
-                          <a class="text-white fw-bold" href=""
-                            >Read More<i class="bi bi-arrow-right ms-2"></i
-                          ></a>
-                        </div>
-                      </div>
-                      <div class="card col-md-6">
-                        <div
-                          class="bg-secondary bg-fruit d-flex flex-column justify-content-center p-5"
-                          style="height: 300px"
-                        >
-                          <h3 class="text-white mb-3">Organic Eggs</h3>
-                          <p class="text-white">
-                            Discover the richness of our farm-fresh eggs, each laid by our
-                            free-roaming hens in a natural, healthy environment. Our eggs
-                            are packed with flavor and nutrients, making them perfect for
-                            any meal or recipe. Choose from a variety of packaging options
-                            to suit your household needs.
-                          </p>
-                          <a class="text-white fw-bold" href=""
-                            >Read More<i class="bi bi-arrow-right ms-2"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container my-5">
-                      <div class="text-center py-2">
-                        <a class="text-dark fw-bold fs-3" href="pages/service.html"
-                          >Explore More<i class="bi bi-arrow-right ms-2"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-          </section>
-      
-          <!-- Service Start -->
-          <hr />
-      
-      
-          <!-- About Start -->
-      
-          <section id="about">
-              
-          <div class="container-fluid ">
-              <div class="container px-5">
+                <div class="row p-0 p-sm-1 p-md-2 p-lg-3">
+                    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="bg-primary bg-vegetable d-flex flex-column justify-content-center p-5">
+                            <h3 class="text-white mb-3">Fresh Products</h3>
+                            <p class="text-white">
+                                At Linah’s Poultry Farm, we are dedicated to delivering the
+                                freshest and most nutritious poultry products straight from our
+                                farm to your table. Our range of premium chicken meats is
+                                locally sourced, ensuring the best taste and quality in every
+                                bite. Experience the delight of meals crafted with care and
+                                expertise.
+                            </p>
+                            <a class="text-white fw-bold" href="">Read More<i
+                                    class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="bg-secondary bg-fruit d-flex flex-column justify-content-center p-5">
+                            <h3 class="text-white mb-3">Organic Eggs</h3>
+                            <p class="text-white">
+                                Discover the richness of our farm-fresh eggs, each laid by our
+                                free-roaming hens in a natural, healthy environment. Our eggs
+                                are packed with flavor and nutrients, making them perfect for
+                                any meal or recipe. Choose from a variety of packaging options
+                                to suit your household needs.
+                            </p>
+                            <a class="text-white fw-bold" href="">Read More<i
+                                    class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
                 <div class="container my-5">
-                  <div class="text-center py-2">
-                    <h2 class="display-5">ABOUT US</h2>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-6 border border-2 border-primary">
-                      <img class="img-fluid mx-auto" src="img/about.png" />
+                    <div class="text-center py-2">
+                        <a class="text-dark fw-bold fs-3" href="pages/service.html">Explore More<i
+                                class="bi bi-arrow-right ms-2"></i></a>
                     </div>
-                    <div class="col-lg-6 px-5">
-                      <div class="card1">
-                        <div class="mb-3">
-                            <h5 class="fs-4">Linah’s Poultry Farm</h5>
-                          </div>
-                          <p class="py-2">
-                            Linah’s Poultry Farm, founded by Akayesu Liliane in 2018, is
-                            dedicated to providing the highest quality chicken meat and eggs
-                            through sustainable farming practices. Our commitment to quality
-                            and community drives everything we do.
-                          </p>
-                      </div>
-                      <div class="row py-2">
-                        <div class="card1 col-sm-6">
-                          <i class="fa fa-star display-1 text-primary"></i>
-                          <h4>Sustainable Practices</h4>
-                          <p class="mb-0">
-                            Our farm emphasizes ethical and sustainable farming methods,
-                            ensuring the well-being of our chickens and the environment.
-                          </p>
-                        </div>
-                        <div class="card1 col-sm-6">
-                          <i class="fa fa-award display-1 text-primary"></i>
-                          <h4>Premium Quality</h4>
-                          <p class="mb-0">
-                            We are committed to providing premium quality chicken meat
-                            and eggs that are fresh, nutritious, and delicious.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </section>
-      
-      
-          <!-- About End -->
-      
-          <!-- Features Start -->
-          <div class="container-fluid bg-primary feature px-5 pb-lg-0 my-5">
-            <div class="container py-5 pb-lg-0">
-              <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px">
-                <h4 class="display-5 text-white text-uppercase">Why Choose Us!!!</h4>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="card1 text-white py-4">
-                    <div
-                      class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
-                      style="width: 60px; height: 60px"
-                    >
-                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+        </section>
+
+        <!-- Service Start -->
+        <hr />
+
+
+        <!-- About Start -->
+
+        <section id="about">
+
+            <div class="container-fluid ">
+                <div class="container p-0 p-sm-1 p-md-2 p-lg-3">
+                    <div class="container pb-2 pb-sm-2 pb-md-4 pb-lg-5">
+                        <div class="text-center">
+                            <h2 class="display-5">ABOUT US</h2>
+                        </div>
                     </div>
-                    <h4 class="text-white text-uppercase">100% Organic</h4>
-                    <p class="mb-0">
-                      Our poultry is raised on organic feed, ensuring the healthiest
-                      and most natural products for your table.
-                    </p>
-                  </div>
-                  <div class="card1 text-white">
-                    <div
-                      class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
-                      style="width: 60px; height: 60px"
-                    >
-                      <i class="fa fa-award fs-4 text-white"></i>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border border-2 border-primary">
+                                <img class="img-fluid mx-auto" src="img/about.png" />
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 px-2 px-sm-3 px-md-4 px-lg-5">
+                                <div class="card1">
+                                    <div class="mb-3">
+                                        <h5 class="fs-4">Linah’s Poultry Farm</h5>
+                                    </div>
+                                    <p class="py-2">
+                                        Linah’s Poultry Farm, founded by Akayesu Liliane in 2018, is
+                                        dedicated to providing the highest quality chicken meat and eggs
+                                        through sustainable farming practices. Our commitment to quality
+                                        and community drives everything we do.
+                                    </p>
+                                </div>
+                                <div class="row py-2">
+                                    <div
+                                        class="card1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-1 py-sm-1 py-md-3 py-lg-5">
+                                        <i class="fa fa-star display-1 text-primary"></i>
+                                        <h4 class="py-2">Sustainable Practices</h4>
+                                        <p class="mb-0">
+                                            Our farm emphasizes ethical and sustainable farming methods,
+                                            ensuring the well-being of our chickens and the environment.
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="card1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-1 py-sm-1 py-md-3 py-lg-5">
+                                        <i class="fa fa-award display-1 text-primary"></i>
+                                        <h4 class="py-2">Premium Quality</h4>
+                                        <p class="mb-0">
+                                            We are committed to providing premium quality chicken meat
+                                            and eggs that are fresh, nutritious, and delicious.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="text-white text-uppercase">Award Winning</h4>
-                    <p class="mb-0">
-                      Recognized for excellence in sustainable farming, we are
-                      committed to quality in every product we offer.
-                    </p>
-                  </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="card1  d-block bg-white h-100 text-center p-5 pb-lg-0">
-                    <p class="text-sm">
-                      At Linah’s Poultry Farm, we believe in quality, sustainability,
-                      and community. Our farm is committed to ethical practices and
-                      providing the best poultry products in Rwanda. From our farm to
-                      your table, experience the freshness and flavor that sets us
-                      apart.
-                    </p>
-                    <img
-                      class=""
-                      src="img/logo.jpg"
-                      alt="Linah’s Poultry Farm Logo"
-                      height="200"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="card1  text-white py-4">
-                    <div
-                      class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
-                      style="width: 60px; height: 60px"
-                    >
-                      <i class="fa fa-tractor fs-4 text-white"></i>
-                    </div>
-                    <h4 class="text-white text-uppercase">Modern Farming</h4>
-                    <p class="mb-0">
-                      Utilizing the latest farming techniques, we ensure our poultry
-                      is raised in a healthy and sustainable environment.
-                    </p>
-                  </div>
-                  <div class="card1 text-white">
-                    <div
-                      class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
-                      style="width: 60px; height: 60px"
-                    >
-                      <i class="fa fa-phone-alt fs-4 text-white"></i>
-                    </div>
-                    <h4 class="text-white text-uppercase">24/7 Support</h4>
-                    <p class="mb-0">
-                      Our dedicated team is always available to assist you with any
-                      questions or concerns, ensuring a seamless experience.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-      
-          <!-- Features Start -->
-          <hr />
-      
-          <!-- Testimonial Start -->
-      
-          <section id="Testimonial">
-      
-              <div class="container">
-                  <div class="text-center py-2">
+        </section>
+
+
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <section>
+            <div class="bg-primary feature px-1 px-sm-1 px-md-3 px-lg-5  py-2 py-sm-3 py-md-2 py-lg-1">
+                <div class="text-center py-1 py-sm-1 py-md-3 py-lg-5">
+                    <h4 class="display-5 text-white text-uppercase">Why Choose Us!!!</h4>
+                </div>
+                <div class="row px-2 px-sm-3 px-md-4 px-lg-5">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 py-1  ">
+                        <div class="card1 text-white py-2 ">
+                            <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                                style="width: 60px; height: 60px">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-white text-uppercase">100% Organic</h4>
+                            <p class="mb-0">
+                                Our poultry is raised on organic feed, ensuring the healthiest
+                                and most natural products for your table.
+                            </p>
+                        </div>
+                        <div class="card1 text-white py-2">
+                            <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                                style="width: 60px; height: 60px">
+                                <i class="fa fa-award fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white text-uppercase">Award Winning</h4>
+                            <p class="mb-0">
+                                Recognized for excellence in sustainable farming, we are
+                                committed to quality in every product we offer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 py-1 px-1 px-sm-1 px-md-3 px-lg-5">
+                        <div class="card1  d-block bg-white h-100 text-center p-5 pb-lg-0">
+                            <p class="text-sm">
+                                At Linah’s Poultry Farm, we believe in quality, sustainability,
+                                and community. Our farm is committed to ethical practices and
+                                providing the best poultry products in Rwanda. From our farm to
+                                your table, experience the freshness and flavor that sets us
+                                apart.
+                            </p>
+                            <img class="" src="img/logo.jpg" alt="Linah’s Poultry Farm Logo" height="200" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 py-1">
+                        <div class="card1  text-white py-2">
+                            <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                                style="width: 60px; height: 60px">
+                                <i class="fa fa-tractor fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white text-uppercase">Modern Farming</h4>
+                            <p class="mb-0">
+                                Utilizing the latest farming techniques, we ensure our poultry
+                                is raised in a healthy and sustainable environment.
+                            </p>
+                        </div>
+                        <div class="card1 text-white py-2">
+                            <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
+                                style="width: 60px; height: 60px">
+                                <i class="fa fa-phone-alt fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white text-uppercase">24/7 Support</h4>
+                            <p class="mb-0">
+                                Our dedicated team is always available to assist you with any
+                                questions or concerns, ensuring a seamless experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Start -->
+        <hr />
+
+        <!-- Testimonial Start -->
+
+        <section id="Testimonial">
+
+            <div class="container">
+                <div class="text-center ">
                     <h4 class="display-5 text-uppercase">Testimonial</h4>
-                  </div>
                 </div>
-                <div class="container-fluid bg-testimonial my-5">
-                  <div class="container py-5">
+            </div>
+            <div class="container-fluid bg-testimonial p-1 p-sm-1 p-md-3 p-lg-5">
+                <div class="container py-1 py-sm-1 py-md-3 py-lg-5">
                     <div class="row justify-content-center">
-                      <div class="col-lg-7">
-                        <div class="card1 owl-carousel testimonial-carousel p-5">
-                          <div class="testimonial-item text-center text-white">
-                            <img
-                              class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
-                              src="img/team-1.png"
-                              alt="Client Photo"
-                            />
-                            <p class="fs-5">
-                              "Linah’s Poultry Farm has consistently provided us with the
-                              freshest and highest quality chicken meat and eggs. Their
-                              commitment to sustainability and ethical farming is evident in
-                              every product."
-                            </p>
-                            <hr class="mx-auto w-25" />
-                            <h4 class="text-white mb-0">Jean Pierre</h4>
-                          </div>
-                          <div class="testimonial-item text-center text-white">
-                            <img
-                              class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
-                              src="img/team-1.png"
-                              alt="Client Photo"
-                            />
-                            <p class="fs-5">
-                              "I’ve been a loyal customer of Linah’s Poultry Farm for years.
-                              Their organic eggs are the best I’ve ever tasted, and their
-                              customer service is outstanding. Highly recommended!"
-                            </p>
-                            <hr class="mx-auto w-25" />
-                            <h4 class="text-white mb-0">Marie Claire</h4>
-                          </div>
-                          <div class="testimonial-item text-center text-white">
-                            <img
-                              class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
-                              src="img/team-1.png"
-                              alt="Client Photo"
-                            />
-                            <p class="fs-5">
-                              "The quality of the chicken meat from Linah’s Poultry Farm is
-                              unparalleled. I appreciate their dedication to providing
-                              healthy and delicious products, and their farm tours are a
-                              great experience for the whole family."
-                            </p>
-                            <hr class="mx-auto w-25" />
-                            <h4 class="text-white mb-0">Aimee Uwase</h4>
-                          </div>
+                        <div class="col-lg-7">
+                            <div class="card1 owl-carousel testimonial-carousel p-5">
+                                <div class="testimonial-item text-center text-white">
+                                    <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
+                                        src="img/team-1.png" alt="Client Photo" />
+                                    <p>
+                                        "Linah’s Poultry Farm has consistently provided us with the
+                                        freshest and highest quality chicken meat and eggs. Their
+                                        commitment to sustainability and ethical farming is evident in
+                                        every product."
+                                    </p>
+                                    <hr class="mx-auto w-25" />
+                                    <h4 class="text-white mb-0">Jean Pierre</h4>
+                                </div>
+                                <div class="testimonial-item text-center text-white">
+                                    <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
+                                        src="img/team-1.png" alt="Client Photo" />
+                                    <p class="fs-5">
+                                        "I’ve been a loyal customer of Linah’s Poultry Farm for years.
+                                        Their organic eggs are the best I’ve ever tasted, and their
+                                        customer service is outstanding. Highly recommended!"
+                                    </p>
+                                    <hr class="mx-auto w-25" />
+                                    <h4 class="text-white mb-0">Marie Claire</h4>
+                                </div>
+                                <div class="testimonial-item text-center text-white">
+                                    <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4"
+                                        src="img/team-1.png" alt="Client Photo" />
+                                    <p class="fs-5">
+                                        "The quality of the chicken meat from Linah’s Poultry Farm is
+                                        unparalleled. I appreciate their dedication to providing
+                                        healthy and delicious products, and their farm tours are a
+                                        great experience for the whole family."
+                                    </p>
+                                    <hr class="mx-auto w-25" />
+                                    <h4 class="text-white mb-0">Aimee Uwase</h4>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-          </section>
-      
-      
-          <!-- Testimonial End -->
-          <hr />
-      
-          <!-- product Start -->
-      <section id="product">
-          <div class="container">
-              <div class="text-center py-2">
-                <h4 class="display-5 text-uppercase">
-                  Latest PRODUCT
-                </h4>
-              </div>
+            </div>
+        </section>
+
+
+        <!-- Testimonial End -->
+        <hr />
+
+        <!-- product Start -->
+        <section id="product">
+            <div class="container">
+                <div class="text-center py-2">
+                    <h4 class="display-5 text-uppercase">
+                        Latest PRODUCT
+                    </h4>
+                </div>
             </div>
             <div class="container-fluid py-5">
-              <div class="container">
-                <div class="row g-5">
-                  <div class="col-lg-4">
-                    <div class="blog-item position-relative overflow-hidden">
-                      <img
-                        class="img-fluid"
-                        src="img/blog-1.jpg"
-                        alt="Sustainable Farming Practices"
-                      />
-                      <a class="blog-overlay" href="">
-                        <h4 class="text-white">
-                          Sustainable Farming Practices at Linah’s Poultry Farm
-                        </h4>
-                        <span class="text-white fw-bold">July 20, 2024</span>
-                      </a>
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-4">
+                            <div class="blog-item position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/product-1.png" alt="Sustainable Farming Practices" />
+                                <a class="blog-overlay" href="">
+                                    <h4 class="text-white">
+                                        Sustainable Farming Practices at Linah’s Poultry Farm
+                                    </h4>
+                                    <span class="text-white fw-bold">July 20, 2024</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-item position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/product-4.png"
+                                    alt="Benefits of Organic Chicken Meat" />
+                                <a class="blog-overlay" href="">
+                                    <h4 class="text-white">
+                                        The Health Benefits of Our Organic Chicken Meat
+                                    </h4>
+                                    <span class="text-white fw-bold">July 18, 2024</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-item position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/product-3.png" alt="Farm-Fresh Eggs" />
+                                <a class="blog-overlay" href="">
+                                    <h4 class="text-white">Why Our Farm-Fresh Eggs Stand Out</h4>
+                                    <span class="text-white fw-bold">July 15, 2024</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="blog-item position-relative overflow-hidden">
-                      <img
-                        class="img-fluid"
-                        src="img/blog-2.jpg"
-                        alt="Benefits of Organic Chicken Meat"
-                      />
-                      <a class="blog-overlay" href="">
-                        <h4 class="text-white">
-                          The Health Benefits of Our Organic Chicken Meat
-                        </h4>
-                        <span class="text-white fw-bold">July 18, 2024</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="blog-item position-relative overflow-hidden">
-                      <img
-                        class="img-fluid"
-                        src="img/blog-3.jpg"
-                        alt="Farm-Fresh Eggs"
-                      />
-                      <a class="blog-overlay" href="">
-                        <h4 class="text-white">Why Our Farm-Fresh Eggs Stand Out</h4>
-                        <span class="text-white fw-bold">July 15, 2024</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="container">
-                <div class="text-center pt-5">
-                  <a class="text-dark fw-bold fs-3" href=""
-                    >Explore More<i class="bi bi-arrow-right ms-2"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-      </section>
-      
-          <!-- product End -->
-         <hr>
 
-         <section id="contact">
+                </div>
+                <div class="container">
+                    <div class="text-center pt-5">
+                        <a class="text-dark fw-bold fs-3" href="">Explore More<i
+                                class="bi bi-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product End -->
+        <hr>
+        <!-- Team Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="mx-auto text-center mb-5">
+                    <h4 class="display-5 text-uppercase">We Are Professional Farmers</h4>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6"></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <img class="img-fluid w-100" src="img/team-1.png" alt="">
+                                <div class="w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
+                                    <h4 class="text-white"> Lilian Kayesu </h4>
+                                    <span class="text-white">Owner</span>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn btn-primary btn-square rounded-circle me-1"
+                                            href="https://wa.me/250789182350?text=What%20about%20your%20service"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                        <a class="btn btn-primary btn-square rounded-circle"
+                                            href="https://www.instagram.com/li__nah/?hl"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <hr>
+        <!--contact-->
+        <section id="contact">
             <div class="container py-2">
+                <div class="container">
+                    <div class="text-center py-2">
+                        <h4 class="display-5 text-uppercase">
+                            Conta Us
+                        </h4>
+                    </div>
+                </div>
                 <!-- Logo and Address -->
                 <div class="row">
                     <div class="col-lg-4 col-md-6 text-center mb-4 mb-md-0 text-dark">
@@ -662,33 +663,29 @@
                         <h5 class="text-uppercase">Linah’s Poultry Farm</h5>
                         <p>Bugesera, Nyamata, Byumba, Kayumba, Murambi</p>
                         <div class="d-flex align-items-center justify-content-center">
-                            <a
-                              class="btn btn-primary btn-square rounded-circle me-1"
-                              href="https://wa.me/250789182350?text=What%20about%20your%20service"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <i class="fab fa-whatsapp"></i>
+                            <a class="btn btn-primary btn-square rounded-circle me-1"
+                                href="https://wa.me/250789182350?text=What%20about%20your%20service" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-whatsapp"></i>
                             </a>
-                            <a
-                              class="btn btn-primary btn-square rounded-circle"
-                              href="https://www.instagram.com/li__nah/?hl"
-                              ><i class="fab fa-instagram"></i
-                            ></a>
-                          </div>
+                            <a class="btn btn-primary btn-square rounded-circle"
+                                href="https://www.instagram.com/li__nah/?hl"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
-                    
+
                     <!-- Contact Form -->
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mx-auto">
                         <form method="POST" action="#" class="text-dark justify-content-start pb-5">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name" class="form-label text-left">Name</label>
-                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="tel" class="form-label text-left">Phone</label>
-                                    <input type="tel" class="form-control" name="tel" id="tel" required>
+                                    <input type="tel" class="form-control" name="tel" id="tel"
+                                        required>
                                 </div>
                             </div>
                             <div class="mb-3">
@@ -696,38 +693,35 @@
                                 <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                             </div>
                             <div>
-                                <button type="submit" class="btn text-white btn-block" style="background-color: #045501;">Send</button>
+                                <button type="submit" class="btn text-white btn-block"
+                                    style="background-color: #045501;">Send</button>
                             </div>
                         </form>
                     </div>
-                </div>  
+                </div>
             </div>
-         </section>
-</main>
-<!--end main-->
+        </section>
+    </main>
+    <!--end main-->
 
-      <!-- Footer Start -->
-      <footer>
+    <!-- Footer Start -->
+    <footer>
         <!-- Copyright -->
         <div class="text-center p-3 bg-primary text-white">
             &copy;
-          <a class="text-secondary fw-bold" href="#"
-            >Linah’s Poultry Farm 2024</a
-          >. All Rights Reserved.
-        </p>
+            <a class="text-secondary fw-bold" href="#">Linah’s Poultry Farm 2024</a>. All Rights Reserved.
+            </p>
         </div>
-        
-      </footer>
+
+    </footer>
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
-<!-- Bootstrap JS (Ensure these are included at the bottom of the body) -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- Bootstrap JS (Ensure these are included at the bottom of the body) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -739,5 +733,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
