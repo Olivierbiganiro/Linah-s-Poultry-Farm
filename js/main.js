@@ -31,7 +31,7 @@
             let scrollPos = $(document).scrollTop() + 100; // Adjusted offset for navbar height
             $('.navbar-nav .nav-link').each(function () {
                 let currLink = $(this);
-                let refElement = $(currLink.attr("href"));
+                let refElement = $(currLink.attr("href").split('#')[1]);
 
                 if (refElement.length && refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                     $('.navbar-nav .nav-link').removeClass("active");
@@ -51,15 +51,24 @@
             }
         });
 
-        // Smooth scroll without hash
+        // Smooth scroll and navigation
         $('.navbar-nav .nav-link').on('click', function (event) {
-            event.preventDefault(); // Prevent the default anchor behavior
-            let targetID = $(this).attr('href').substring(1); // Get the ID of the target element
-            let targetPosition = $('#' + targetID).offset().top; // Get the position of the target element
+            let targetHref = $(this).attr('href');
+            let targetID = targetHref.split('#')[1]; // Get the fragment identifier
+            let targetPage = targetHref.split('#')[0]; // Get the page path
 
-            $('html, body').animate({
-                scrollTop: targetPosition
-            }, 10); // Smooth scroll to the target element
+            if (window.location.pathname.endsWith(targetPage) || targetPage === '') {
+                // Same page scroll
+                event.preventDefault(); // Prevent the default anchor behavior
+                let targetPosition = $('#' + targetID).offset().top; // Get the position of the target element
+
+                $('html, body').animate({
+                    scrollTop: targetPosition
+                }, 100); // Smooth scroll to the target element
+            } else {
+                // Navigate to different page
+                window.location.href = targetHref;
+            }
         });
     });
 
