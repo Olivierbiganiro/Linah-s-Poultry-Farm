@@ -50,6 +50,17 @@
                 $('.navbar-collapse').collapse('hide');
             }
         });
+
+        // Smooth scroll without hash
+        $('.navbar-nav .nav-link').on('click', function (event) {
+            event.preventDefault(); // Prevent the default anchor behavior
+            let targetID = $(this).attr('href').substring(1); // Get the ID of the target element
+            let targetPosition = $('#' + targetID).offset().top; // Get the position of the target element
+
+            $('html, body').animate({
+                scrollTop: targetPosition
+            }, 10); // Smooth scroll to the target element
+        });
     });
 
     // Back to top button
