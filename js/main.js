@@ -43,6 +43,13 @@
         }
 
         $(window).on("scroll", updateActiveLink);
+
+        // Collapse navbar on link click (for small screens)
+        $('.navbar-nav .nav-link').on('click', function () {
+            if ($('.navbar-toggler').is(':visible')) {
+                $('.navbar-collapse').collapse('hide');
+            }
+        });
     });
 
     // Back to top button
