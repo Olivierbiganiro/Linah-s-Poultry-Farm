@@ -656,73 +656,95 @@
         <!-- Team End -->
 
         <hr>
-        <!--contact-->
-        <section id="contact">
-            <div class="container py-2">
-                <div class="container">
-                    <div class="text-center py-2">
-                        <h4 class="display-5 text-uppercase">
-                            Conta Us
-                        </h4>
-                    </div>
-                </div>
-                <!-- Logo and Address -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 text-center mb-4 mb-md-0 text-dark">
-                        <img src="img/logo.png" alt="FCC Logo" class="img-fluid mb-3" style="max-width: 100px;">
-                        <h5 class="text-uppercase">Linah’s Poultry Farm</h5>
-                        <p>Bugesera, Nyamata, Byumba, Kayumba, Murambi</p>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a class="btn btn-primary btn-square rounded-circle me-1"
-                                href="https://wa.me/250789182350?text=What%20about%20your%20service" target="_blank"
-                                rel="noopener noreferrer">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                            <a class="btn btn-primary btn-square rounded-circle me-1" href="tel:+250789182350">
-                                <i class="fas fa-phone-alt"></i>
-                            </a>
-                            <a class="btn btn-primary btn-square rounded-circle me-1"
-                                href="https://www.instagram.com/li__nah/?hl">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a class="btn btn-primary btn-square rounded-circle me-1"
-                                href="https://web.facebook.com/profile.php?id=61561871835126" target="_blank"
-                                rel="noopener noreferrer">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="btn btn-primary btn-square rounded-circle me-1" href="https://x.com/LinahPoultry"
-                                target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Contact Form -->
-                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mx-auto">
-                        <form method="POST" action="#" class="text-dark justify-content-start pb-5">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="name" class="form-label text-left">Name</label>
-                                    <input type="text" class="form-control" id="name" name="name" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="tel" class="form-label text-left">Phone</label>
-                                    <input type="tel" class="form-control" name="tel" id="tel" required>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label text-left">Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-                            </div>
-                            <div>
-                                <button type="submit" class="btn text-white btn-block"
-                                    style="background-color: #045501;">Send</button>
-                            </div>
-                        </form>
-                    </div>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container py-2">
+        <div class="container">
+            <div class="text-center py-2">
+                <h4 class="display-5 text-uppercase">
+                    Contact Us
+                </h4>
+            </div>
+        </div>
+        <!-- Logo and Address -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center mb-4 mb-md-0 text-dark">
+                <img src="img/logo.png" alt="FCC Logo" class="img-fluid mb-3" style="max-width: 100px;">
+                <h5 class="text-uppercase">Linah’s Poultry Farm</h5>
+                <p>Bugesera, Nyamata, Byumba, Kayumba, Murambi</p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <a class="btn btn-primary btn-square rounded-circle me-1"
+                        href="https://wa.me/250789182350?text=What%20about%20your%20service" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a class="btn btn-primary btn-square rounded-circle me-1" href="tel:+250789182350">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a class="btn btn-primary btn-square rounded-circle me-1"
+                        href="https://www.instagram.com/li__nah/?hl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn btn-primary btn-square rounded-circle me-1"
+                        href="https://web.facebook.com/profile.php?id=61561871835126" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-primary btn-square rounded-circle me-1" href="https://x.com/LinahPoultry"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </div>
             </div>
-        </section>
+
+            <!-- Contact Form -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mx-auto">
+                <form id="contact-form" class="text-dark justify-content-start pb-5">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name" class="form-label text-left">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="tel" class="form-label text-left">Phone</label>
+                            <input type="tel" class="form-control" name="tel" id="tel" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-left">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn text-white btn-block"
+                            style="background-color: #045501;">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript to handle form submission -->
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+    
+        // Get form data
+        const name = document.getElementById('name').value;
+        const tel = document.getElementById('tel').value;
+        const message = document.getElementById('message').value;
+    
+        // Construct WhatsApp message URL
+        const whatsappNumber = '250789182350'; // Replace with your WhatsApp number
+        const whatsappMessage = `Name: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(tel)}%0AMessage: ${encodeURIComponent(message)}`;
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+    
+        // Redirect to WhatsApp
+        window.open(whatsappURL, '_blank');
+    });
+    </script>
+    
+
     </main>
     <!--end main-->
 
