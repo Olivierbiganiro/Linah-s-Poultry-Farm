@@ -371,3 +371,8 @@ input.active {
 textarea.active {
     text-decoration: none !important;
 }
+
+
+a:hover {
+    text-decoration: none;
+}
